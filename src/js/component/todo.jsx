@@ -26,7 +26,7 @@ const Todo = () => {
                     ))}
                     
                 </ul>
-                <div>23 tareas</div>
+                <div>{todos.length} tareas</div>
             </div>
         </>
         
