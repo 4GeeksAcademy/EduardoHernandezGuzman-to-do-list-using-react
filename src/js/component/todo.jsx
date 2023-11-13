@@ -7,8 +7,8 @@ const Todo = () => {
 
     return (
         <>
-            <div className="container">
-                <h1>Mi lista de tareas</h1>
+            <div className="container col-4 todofondo">
+                <h1 className="display-4" >Mi lista de tareas</h1>
                 <ul>
                     <li> 
                         <input 
@@ -26,7 +26,7 @@ const Todo = () => {
                     ))}
                     
                 </ul>
-                <div>{todos.length} tareas</div>
+                <div className="tareas" >{todos.length} tareas</div>
             </div>
         </>
         

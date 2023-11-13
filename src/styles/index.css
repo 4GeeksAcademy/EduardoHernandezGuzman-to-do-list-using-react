@@ -1,11 +1,23 @@
 body {
-    margin-top: 100px;
+    margin-top: 40px;
+    background: #a5a5a5;
+}
+
+.todofondo {
+    background: #e4e7eb;
+    border-radius: 10px;
+    padding: 40px;
+
 }
 
 ul li {
-    border: grey 1px solid;
+    border: #a5a5a5 2px solid;
     list-style: none;
     padding: 5px;
+    background: #d4d4d4;
+    margin: 6px;
+    border-radius: 9px;
+    
 }
 
 ul {
@@ -15,6 +27,8 @@ ul {
 
 h1 {
     text-align: center;
+    margin-bottom: 50px;
+    color: #ff5f5f;
 }
 
 imput {
@@ -24,4 +38,9 @@ imput {
 
 svg {
     margin-left: 10px;
+}
+
+.tareas {
+    color: #ff5f5f;
+    margin-top: 9px;
 }
